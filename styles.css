@@ -1,0 +1,160 @@
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #202020;
+    color: white;
+    position: sticky;
+    top: 0px;
+    min-width: 100%;
+}
+
+li {
+    margin: 10px;
+}
+
+input {
+    background-color: #121212;
+    color: white;
+}
+
+button {
+    background-color: #313131;
+    color: white;
+}
+
+#microphone {
+    border: 10px solid #181818;
+    border-radius: 100%;
+}
+
+.logo {
+    height: 30px;
+    padding-left: 20px;
+}
+
+.account {
+    height: 30px;
+    border-radius: 100%;
+}
+
+.account i {
+    padding: 0 5px 0 5px;
+}
+
+aside ul {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: #383838 solid 1px;
+    margin: 0;
+    padding: 0;
+}
+
+aside li {
+    min-width: 100%;
+    margin-left: 0;
+    padding-left: 10px;
+}
+
+aside i {
+    padding-right: 20px;
+}
+
+aside img {
+    margin-right: 20px;
+}
+
+
+aside {
+    background-color: #212121;
+    color: white;
+    width: 200px;
+}
+
+main {
+    background-color: #181818;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.video {
+    min-height: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 276px;
+    margin-top: 50px;
+}
+
+.thumbnail {
+    width: 276px;
+    height: 155px;
+    padding-bottom: 10px;
+}
+
+h5 {
+    padding-left: 5px;
+    width: 80%;
+    color: white;
+}
+
+h6 {
+    width: 100%;
+    padding-left: 35px;
+    color: gray;
+}
+
+.extra {
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin: 20px 0 10px 0;
+    border: none;
+}
+
+.extra li {
+    min-width: auto;
+    margin: 0 10px 0 0;
+}
+
+.videonav {
+    background-color: #202020;
+    position: sticky;
+    top: 72px;
+    color: white;
+    width: 100%;
+    height: 50px;
+}
+
+.current {
+    background-color: white;
+    color: black;
+}
+
+.videonav li {
+    border: solid white 1px;
+    border-radius: 20px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.tab {
+    background-color: #383838;
+}
